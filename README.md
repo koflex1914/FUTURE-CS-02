@@ -32,3 +32,16 @@ Failed Login.png FAILED LOGIN.png  - Screenshot showing failed login attempts
 source="SOC_Task2_Sample_Logs.txt" host="vbox" index="soc_task2" sourcetype="CS  SOC CSV" | head 100
 | search threat=malware detected
 I also used the spl to extract fields like user, ip, action, and threat to support analysis.
+
+## Preview;
+<img width="1919" height="1037" alt="image" src="https://github.com/user-attachments/assets/824656d6-90c2-4c5a-8561-2a53a1f2b83d" />
+
+<img width="1919" height="894" alt="image" src="https://github.com/user-attachments/assets/266a50df-989d-4161-8bff-5dd164dc44e4" />
+
+
+## ✅ Skills Gained
+SIEM operation (Splunk Enterprise)
+Writing and executing SPL queries
+Field extraction
+Log analysis and threat detection
+Writing a professional incident response report
