@@ -21,7 +21,7 @@ incident_report.md	Full incident response report with findings and recommendatio
 MALWARE DETECTION.png malware detected.png	Screenshot showing malware detection in Splunk
 FAILED LOGIN.png FAILED LOGIN.png  Screenshot showing failed login attempts
 
-## 🧾 Sample SPL Query Used
+## 🧾 Sample SPL (Search Processing Language) Query Used
 source="SOC_Task2_Sample_Logs.txt" host="vbox" index="soc_task2" sourcetype="CS  SOC CSV" | head 100
 | search threat=malware detected
 I also used the spl to extract fields like user, ip, action, and threat to support analysis.
