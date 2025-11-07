@@ -41,7 +41,11 @@ I also used the spl to extract fields like user, ip, action, and threat to suppo
 
 ## ✅ Skills Gained
 SIEM operation (Splunk Enterprise)
+
 Writing and executing SPL queries
+
 Field extraction
+
 Log analysis and threat detection
+
 Writing a professional incident response report
