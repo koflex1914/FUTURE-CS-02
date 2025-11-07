@@ -5,12 +5,14 @@ This repository contains my work for Task 2 of my cybersecurity internship.
 The objective was to analyze simulated security logs using a SIEM tool (Splunk Enterprise), detect suspicious activity, classify incidents, and generate a report with recommendations.
 
 
+
 ## 🧠 What I Did
 Used Splunk Cloud to ingest and analyze structured .txt log data
 Wrote custom SPL queries to detect security incidents
 Identified and classified multiple malware threats (Trojan, Ransomware, Rootkit, etc.)
 Created an incident response report detailing the findings
 Recommended remediation actions based on the alerts
+
 
 
 ## 📁 Files in This Repo
@@ -23,6 +25,7 @@ incident_report.md - Full incident response report with findings and recommendat
 Malware Detection.png malware detected.png - Screenshot showing malware detection in Splunk
 
 Failed Login.png FAILED LOGIN.png  - Screenshot showing failed login attempts
+
 
 
 ## 🧾 Sample SPL (Search Processing Language) Query Used
