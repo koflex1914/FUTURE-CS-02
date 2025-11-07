@@ -1,11 +1,11 @@
-#FUTURE_CS_02 – SOC Task 2: Security Alert Monitoring & Incident Response
+# FUTURE_CS_02 – SOC Task 2: Security Alert Monitoring & Incident Response
 
 
 This repository contains my work for Task 2 of my cybersecurity internship.
 The objective was to analyze simulated security logs using a SIEM tool (Splunk Enterprise), detect suspicious activity, classify incidents, and generate a report with recommendations.
 
 
-##🧠 What I Did
+## 🧠 What I Did
 Used Splunk Cloud to ingest and analyze structured .txt log data
 Wrote custom SPL queries to detect security incidents
 Identified and classified multiple malware threats (Trojan, Ransomware, Rootkit, etc.)
@@ -13,15 +13,15 @@ Created an incident response report detailing the findings
 Recommended remediation actions based on the alerts
 
 
-##📁 Files in This Repo
+## 📁 Files in This Repo
 
-###File	Description
+### File	Description
 Future_Interns_SOC Task2_sample_logs.txt	The sample log file uploaded to Splunk
 incident_report.md	Full incident response report with findings and recommendations
 MALWARE DETECTION.png malware detected.png	Screenshot showing malware detection in Splunk
 FAILED LOGIN.png FAILED LOGIN.png  Screenshot showing failed login attempts
 
-##🧾 Sample SPL Query Used
+## 🧾 Sample SPL Query Used
 source="SOC_Task2_Sample_Logs.txt" host="vbox" index="soc_task2" sourcetype="CS  SOC CSV" | head 100
 | search threat=malware detected
 I also used the spl to extract fields like user, ip, action, and threat to support analysis.
