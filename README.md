@@ -16,10 +16,14 @@ Recommended remediation actions based on the alerts
 ## 📁 Files in This Repo
 
 ### File	Description
-Future_Interns_SOC Task2_sample_logs.txt	The sample log file uploaded to Splunk
-incident_report.md	Full incident response report with findings and recommendations
-MALWARE DETECTION.png malware detected.png	Screenshot showing malware detection in Splunk
-FAILED LOGIN.png FAILED LOGIN.png  Screenshot showing failed login attempts
+Future_Interns_SOC Task2_sample_logs.txt - The sample log file uploaded to Splunk
+
+incident_report.md - Full incident response report with findings and recommendations
+
+Malware Detection.png malware detected.png - Screenshot showing malware detection in Splunk
+
+Failed Login.png FAILED LOGIN.png  - Screenshot showing failed login attempts
+
 
 ## 🧾 Sample SPL (Search Processing Language) Query Used
 source="SOC_Task2_Sample_Logs.txt" host="vbox" index="soc_task2" sourcetype="CS  SOC CSV" | head 100
